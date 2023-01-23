@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #281b31;
+}
+
+header {
+    margin: 1em;
+    height: 15vh;
+    text-align: center;
+    color: rgb(175, 174, 174);
+}
+
+.imgcontainer {
+    height: 1.4em;
+    margin-top: .2em;
+}
+
+.imgcontainer img {
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+
+main {
+    background-color: #0e0d0c;
+    width: 90vw;
+    margin: auto;
+    color: rgb(175, 174, 174);
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+
+.sobre {
+    margin: auto;
+    width: 55vw;
+    font-size: 1.1em;
+}
+
+.sobre h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: .8em;
+}
+
+
+
+.projetos {
+    text-align: center;
+    margin: 1em;
+    border-top: 2px solid gray;
+}
+
+.projetos h2 {
+    margin-top: 3vh;
+    font-size: 1.9em;
+    color: white;
+}
+
+.bta {
+    margin-right: 1em;
+    margin-top: 2em;
+    font-size: 1.3em;
+    width: 9em;
+    padding: 4px;
+    color: white;
+    background-color: #0e0d0c;
+    border: 3px solid gray;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.bta:active {
+    
+}
+
+
+
+
+.proj-lin {
+    margin: auto;
+    margin-top: 2em;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    padding: 1em;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    width: 300px;
+    margin-left: 33%;
+    list-style: none;
+    overflow: auto;
+    padding-top: 1em;
+}
+
+ul::-webkit-scrollbar {
+    background-color: white;
+    border-radius: .4em;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: .4em;
+}
+
+.link {
+    height: 90%;
+    margin-right: 2em;
+}
+
+.link img {
+    height: 90%;
+}
+
+.link img:hover {
+    height: 100%;
+}
