@@ -12,7 +12,7 @@
         <h1>Arthur Ivano</h1>
         <p>19 anos. <br> Desenvolvedor front-end. <br>  </p>
         <div class="imgcontainer">
-            <a href="https://github.com/Arthur-zct"><img src="img/github.png" alt="GitHub icon"></a>
+            <a href="https://github.com/Arthur-zct" target="_blank" ><img src="img/github.png" alt="GitHub icon"></a>
         </div>
     </header>
 
@@ -27,24 +27,14 @@
         <section class="projetos">
             <div>
                 <h2>Projetos</h2>
-                <button class="bta">HTML e CSS</button>
-                <button class="bta">Javascript</button>
-                <button class="bta">React</button>
+                <button class="bta" onclick="Projetos('Html-css')">HTML e CSS</button>
+                <button class="bta" onclick="Projetos('javascript')">Javascript</button>
+                <button class="bta" onclick="Projetos('react')">React</button>
             </div>
             <div class="proj-lin">
-                <ul>
-                    <li class="link">
-                        <a href="https://arthur-zct.github.io/ListadTarefas/">
-                            <img src="img/site_javascript-1.png" alt="Link para o site lista de tarefas">
-                        </a>
-                    </li>
-                    <li class="link">
-                        <a href="https://arthur-zct.github.io/ListadTarefas/">
-                            <img src="img/site_javascript-1.png" alt="Link para o site lista de tarefas">
-                        </a>
-                    </li>
-                </ul>
-                
+                <ul id="lista">
+            
+                </ul> 
             </div>
         </section>
     </main>
