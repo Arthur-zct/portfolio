@@ -36,6 +36,7 @@ main {
     border-radius: 1em;
     padding: 1em;
     margin-bottom: 1em;
+    max-width: 1600px;
 }
 
 
@@ -45,6 +46,7 @@ main {
     margin: auto;
     width: 55vw;
     font-size: 1.1em;
+    margin-bottom: 1em;
 }
 
 .sobre h2 {
@@ -67,10 +69,15 @@ main {
     color: white;
 }
 
+.botoes {
+    height: 25vh;
+}
+
 .bta {
     margin-right: 1em;
     margin-top: 2em;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    
     width: 9em;
     padding: 4px;
     color: white;
@@ -80,8 +87,14 @@ main {
     cursor: pointer;
 }
 
+.bta:hover{
+    font-size: 1.3em;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.632);
+}
+
 .bta:active {
-    
+    font-size: 1.23em;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.632);
 }
 
 
@@ -129,4 +142,55 @@ ul::-webkit-scrollbar-thumb {
 
 .link img:hover {
     height: 90%;
+}
+
+
+
+@media (max-width: 930px){
+
+    .proj-lin { 
+        margin-top: 2em;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        padding: 0em;
+        
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    .projetos {
+        text-align: center;
+        margin: 0em;
+        border-top: 2px solid gray;
+    }
+
+    .link {
+        height: 90%;
+        margin-right: 2em;
+    }
+        
+    .link img {
+        height: 70%;
+    }
+
+
+
+    .botoes {
+        height: auto;
+    }
+
+    .bta:hover{
+        font-size: 1.4em;
+        box-shadow: none;
+    }
+    
+    .bta:active {
+        font-size: 1.4em;
+        box-shadow: none;
+    }
+
+    
 }
