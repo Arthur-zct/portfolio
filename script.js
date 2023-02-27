@@ -51,9 +51,9 @@ function Projetos(tipo) {
         Imagens = ["img/javascript-1.png", "img/javascript-2.png"];
         Descricao = ["Uma lista de tarefas feita com a opção de adicionar tarefa, excluir, concluir e editar.", "Um site de perguntas bem simples que diz qual linguagem front-end basica é mais adequada para você."]
     } else if (tipo == "react") {
-        Links = ["https://Arthur-zct.github.io/imccalculo"];
-        Imagens = ["img/react-1.png"];
-        Descricao = ["Um site com uma calculadora de imc feito com react."]
+        Links = ["https://Arthur-zct.github.io/imccalculo", "https://arthur-zct.github.io/Prev-temp/"];
+        Imagens = ["img/react-1.png", "img/tempo.png"];
+        Descricao = ["Um site com uma calculadora de imc feito com react.", "um site que mostra o tempo atual."]
     }
     
     
